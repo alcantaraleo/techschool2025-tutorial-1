@@ -9,24 +9,37 @@ st.header("Preencha o formulário abaixo")
 
 st.markdown("""---""")
 
-nome = st.text_input("Informe seu nome:", placeholder="Preencha o seu nome")
+with st.form("formCadastro"):
 
-idade = st.number_input("Informe sua idade:", min_value=8, max_value=18, step=1)
+        nome = st.text_input("Informe seu nome:", placeholder="Preencha o seu nome")
 
-dataNascimento = st.date_input("Dt. Nascimento", format="DD/MM/YYYY")
+        idade = st.number_input("Informe sua idade:", min_value=8, max_value=18, step=1)
 
-horaAtual = st.time_input("Selecione a hora:", step=60)
+        dataNascimento = st.date_input("Dt. Nascimento", format="DD/MM/YYYY")
 
-corPerfil = st.color_picker("Selecione a cor do perfil")
+        horaAtual = st.time_input("Selecione a hora:", step=60)
 
-st.write("Nome:", nome)
-st.write("Idade:", idade)
-st.write("Data Nascimento:", dataNascimento)
-st.write("Horal Atual:", horaAtual)
+        corPerfil = st.color_picker("Selecione a cor do perfil")
 
-html_code = """
-        <h1 style='color: {};'>Essa é a cor que você escolheu para o seu perfil</h1>
-""".format(corPerfil)
-st.markdown(html_code, unsafe_allow_html=True)
+        btnFormCadastro = st.form_submit_button("Cadastrar")
+
+        if btnFormCadastro:
+                if not nome:
+                        st.error("Preencha o nome")
+                elif len(nome) <= 3:
+                        st.error("Nome precisa ter pelo menos 3 letras")
+                else:
+                        st.write("Nome:", nome)
+                        st.write("Idade:", idade)
+                        st.write("Data Nascimento:", dataNascimento)
+                        st.write("Horal Atual:", horaAtual)
+
+                        html_code = """
+                                <h1 style='color: {};'>Essa é a cor que você escolheu para o seu perfil</h1>
+                        """.format(corPerfil)
+                        st.markdown(html_code, unsafe_allow_html=True)
+        
+
+
 
 
