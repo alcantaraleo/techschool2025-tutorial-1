@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "techschool2025-tutorial",
+  "private_key_id": "a15a0b05d60a2cf518e28f83041fdc2e1c768495",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZi0hDy6GLEqnc\npGQRXcANeSi5SePK6l4sOdHmdmMFlf7qKGENn+O1HobzJqeQSZor0vpXmYn3TcLa\nq84aAHIQW0bKDJ7SDbakxu7gjBXzj9Rx+JSM9IvG92Ehmf+M3avxgt7hCY2O/Nts\nx8sVh5Ljy5tnAgPL+LWJvLsB7go9aUp2cXXUr5nHLFIBsnvVNIYJFlSYMmGGD1qm\nlDXi0Er5gOQQhnjHltsJIRTl8CogWMvzkK8LsEDXM3Ljx8/gJl636Rtz+xD0tOLF\nRhoih1260EYu2Tj/S2vF+lJy4SRskoQtSnWL55RMEFNGwJl4aixVnAUyH9nAbQTV\nzLFRZ2W/AgMBAAECggEAATJsKMXP17XKRPMFj1wjxAYRzfvCgCy5zqNMPAFdj5cj\n/9q77Wa3XNw1r+zC+bFiK/4U4E5fLeRttihBaiAdmO7Srz8DJlFAGCLQ7vIq8l8a\nxXMxq5MQ+3B9ujTdZu4jHtf+qf6muSY7u7NHJvKshJauqNtEn9eEpno+b1xa0UJj\nnMKYLPnHxa2KBJI6ux4nnm+8MKmLoWRzUNvty38tVWafbLT9LqPUrurTGrZnj9Rs\n2xnZCHzvs5g6ds6nrSqWISniJuIoTQMm78rNg3pAS1kDZai8geJEV4HLascod6Yg\nPYzZDyQLqiKOJEq9FiomqE1L98//vLBXbaATlxMpXQKBgQD/bodMBhyPgp9M8sct\nrsXaoUs+aodH7FNnj6NpLsMs1IGTQO1sWilyr5/Nk3hEwQJmznl+L+O201N/KCGk\n8zybBXw8TYkln1PPNlZFxRuYbXThOEMUXVCqAyR1mly+WC60PxVGH3WM5npei8Z7\nazis47+aAo2vDKhKYXb9pRZBfQKBgQDaBy0hAFFue6vQU4XkEn//FFgWn4OB8BYV\nA7MyOfY/7fUclRbe4gz7TK/MRha+ew0Wy+qfhcQfNxc8GrrebgUFrcja4xXrUH5n\n7aUWAQ88MntwLtSRJqCnhMVrQUfuPL1Gd2ZLz+5sSFbUIYvklNv9/8eSPUTmjNXN\nUzwcByDo6wKBgQCdUslYRMdgiLZvIXUWKPhJ0WBTwC80WFWCipC+XwPtX7GzLaFO\nRDYVIiCN8M95oVtGUNO5qetaFsztm50lSH9Ch91eEu9u0bRAAxqd/Gojtv7vHMUM\nDPF61VambH3E6vFRKS2ENColr2sdQn/sUjzlF51SUVJMx8H7lg5A6WZMzQKBgQCe\nmf3QNeUG09wGbdvGL1cA/ZGe02bczQOjQc/HR7bEhpt5sVKzzAjZfc2ccZf19Jlu\n7eO9K5ehhXfXdzJcv/fTS7oC0JKPXTy26X7f5OFqTubQkqB6/nh7o+/gt9pVicW+\nTvkRSS8Nggn3wnd7TnZB7SEGVp+afvTAqj3dvanJBQKBgD4JdAvOSmI1kUE7FGWv\neCPOECNjyh1tjOPJec0CuyhvPHFwX4uMsw7zitv60WJS94jC/DWkszbQo0yev0rk\n6dadZIzTBfg9MBs0fGHUP/tEFOEI97vGzVWjAEvau0ALXxfIKeCPgvYvyWcM3hkO\nCT7ewbR5ZrIrsTOP/6dXZN9N\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@techschool2025-tutorial.iam.gserviceaccount.com",
+  "client_id": "113985398779414255834",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40techschool2025-tutorial.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
