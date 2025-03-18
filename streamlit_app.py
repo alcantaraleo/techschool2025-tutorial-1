@@ -12,7 +12,7 @@ semMenuLateralStyle = """
         }
     </style>
 """
-st.markdown(semMenuLateralStyle, unsafe_allow_html=True)
+#st.markdown(semMenuLateralStyle, unsafe_allow_html=True)
 
 st.header("Sobre")
 
